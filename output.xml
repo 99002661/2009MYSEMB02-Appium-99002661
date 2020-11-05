@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201105 14:12:26.333" rpa="false">
+<suite id="s1" name="Mobile" source="C:\Users\Training\eclipse-workspace\Session\Mobile">
+<suite id="s1-s1" name="NativeApps" source="C:\Users\Training\eclipse-workspace\Session\Mobile\NativeApps">
+<suite id="s1-s1-s1" name="NTapp" source="C:\Users\Training\eclipse-workspace\Session\Mobile\NativeApps\NTapp.robot">
+<test id="s1-s1-s1-t1" name="Test2">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>remote_url=http://localhost:4723/wd/hub</arg>
+<arg>platformName=android</arg>
+<arg>deviceName=sc</arg>
+<arg>app=${EXECDIR}${/}app${/}aartest.apk</arg>
+<arg>noReset=true</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:26.602" endtime="20201105 14:12:36.870"></status>
+</kw>
+<kw name="Set Appium Timeout" library="AppiumLibrary">
+<doc>Sets the timeout in seconds used by various keywords.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:36.870" endtime="20201105 14:12:36.871"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//*[@text='Assess Again']</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:36.871" endtime="20201105 14:12:43.444"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@text='Assess Again']</arg>
+</arguments>
+<msg timestamp="20201105 14:12:43.446" level="INFO">Clicking element 'xpath=//*[@text='Assess Again']'.</msg>
+<status status="PASS" starttime="20201105 14:12:43.445" endtime="20201105 14:12:43.737"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//*[@text='Ok, Got it']</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:43.738" endtime="20201105 14:12:44.929"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@text='Ok, Got it']</arg>
+</arguments>
+<msg timestamp="20201105 14:12:44.931" level="INFO">Clicking element 'xpath=//*[@text='Ok, Got it']'.</msg>
+<status status="PASS" starttime="20201105 14:12:44.930" endtime="20201105 14:12:45.100"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//*[contains(@text,'None')]</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:45.100" endtime="20201105 14:12:45.202"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[contains(@text,'None')]</arg>
+</arguments>
+<msg timestamp="20201105 14:12:45.203" level="INFO">Clicking element 'xpath=//*[contains(@text,'None')]'.</msg>
+<status status="PASS" starttime="20201105 14:12:45.202" endtime="20201105 14:12:45.752"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20201105 14:12:47.754" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201105 14:12:45.753" endtime="20201105 14:12:47.754"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=(//*[contains(@text,'None')])[2]</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:47.755" endtime="20201105 14:12:47.879"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=(//*[contains(@text,'None')])[2]</arg>
+</arguments>
+<msg timestamp="20201105 14:12:47.880" level="INFO">Clicking element 'xpath=(//*[contains(@text,'None')])[2]'.</msg>
+<status status="PASS" starttime="20201105 14:12:47.879" endtime="20201105 14:12:48.033"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//*[@text='No']</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:48.033" endtime="20201105 14:12:48.639"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@text='No']</arg>
+</arguments>
+<msg timestamp="20201105 14:12:48.641" level="INFO">Clicking element 'xpath=//*[@text='No']'.</msg>
+<status status="PASS" starttime="20201105 14:12:48.640" endtime="20201105 14:12:48.789"></status>
+</kw>
+<kw name="Swipe By Percent" library="AppiumLibrary">
+<doc>Swipe from one percent of the screen to another percent, for an optional duration.
+Normal swipe fails to scale for different screen resolutions, this can be avoided using percent.</doc>
+<arguments>
+<arg>50</arg>
+<arg>75</arg>
+<arg>50</arg>
+<arg>25</arg>
+<arg>2000</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:48.789" endtime="20201105 14:12:50.815"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=(//*[contains(@text,'None')])[3]</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:50.816" endtime="20201105 14:12:50.900"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=(//*[contains(@text,'None')])[3]</arg>
+</arguments>
+<msg timestamp="20201105 14:12:50.901" level="INFO">Clicking element 'xpath=(//*[contains(@text,'None')])[3]'.</msg>
+<status status="PASS" starttime="20201105 14:12:50.900" endtime="20201105 14:12:51.052"></status>
+</kw>
+<kw name="Swipe By Percent" library="AppiumLibrary">
+<doc>Swipe from one percent of the screen to another percent, for an optional duration.
+Normal swipe fails to scale for different screen resolutions, this can be avoided using percent.</doc>
+<arguments>
+<arg>50</arg>
+<arg>75</arg>
+<arg>50</arg>
+<arg>25</arg>
+<arg>2000</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:51.052" endtime="20201105 14:12:53.392"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//*[@text='Ok']</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:53.393" endtime="20201105 14:12:53.461"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@text='Ok']</arg>
+</arguments>
+<msg timestamp="20201105 14:12:53.463" level="INFO">Clicking element 'xpath=//*[@text='Ok']'.</msg>
+<status status="PASS" starttime="20201105 14:12:53.461" endtime="20201105 14:12:53.606"></status>
+</kw>
+<kw name="Swipe By Percent" library="AppiumLibrary">
+<doc>Swipe from one percent of the screen to another percent, for an optional duration.
+Normal swipe fails to scale for different screen resolutions, this can be avoided using percent.</doc>
+<arguments>
+<arg>50</arg>
+<arg>25</arg>
+<arg>50</arg>
+<arg>75</arg>
+<arg>2000</arg>
+</arguments>
+<status status="PASS" starttime="20201105 14:12:53.606" endtime="20201105 14:12:56.164"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20201105 14:12:58.167" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201105 14:12:56.165" endtime="20201105 14:12:58.167"></status>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>You are Safe</arg>
+</arguments>
+<msg timestamp="20201105 14:12:58.317" level="INFO">Current page contains text 'You are Safe'.</msg>
+<status status="PASS" starttime="20201105 14:12:58.168" endtime="20201105 14:12:58.317"></status>
+</kw>
+<status status="PASS" starttime="20201105 14:12:26.601" endtime="20201105 14:12:58.318" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201105 14:12:26.407" endtime="20201105 14:12:58.318"></status>
+</suite>
+<status status="PASS" starttime="20201105 14:12:26.401" endtime="20201105 14:12:58.320"></status>
+</suite>
+<status status="PASS" starttime="20201105 14:12:26.374" endtime="20201105 14:12:58.322"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Mobile">Mobile</stat>
+<stat pass="1" fail="0" id="s1-s1" name="NativeApps">Mobile.NativeApps</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="NTapp">Mobile.NativeApps.NTapp</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
