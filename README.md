@@ -10,4 +10,4 @@ Mentor of project : Balaji
 
 Test Cases :
 ................
-Opening Aarogyasetu app and taking aa self-assessment(no symptomps case).
+Opening Aarogyasetu app and taking a self-assessment(no infection case).
