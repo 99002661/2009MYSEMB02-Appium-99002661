@@ -3,8 +3,8 @@
 
 Application Name : Aarogyasetu
 Test Designed By : Rishi Bharadwaj  
-Test Designed Date : 5th Nov 2020
-Mentor of project : Balaji
+Test Design Date : 5th Nov 2020
+Mentor : Balaji
 
  
 
